@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TitleScreen/EVO Main Menu.unity
+    guid: e574aa1b774772d4da03897bb4f2f7a5
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/LooseScreen.unity
+    guid: 5ca64bb4ffe6a224cbfe91292c5f1d78
+  - enabled: 1
+    path: Assets/Scenes/WinScreen.unity
+    guid: 195445fb03312c94292de5fb6532588b
+  m_configObjects: {}
