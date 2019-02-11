@@ -138,7 +138,7 @@ public class Traits : MonoBehaviour {
 		AttackPower = (100-Health)+Random.Range (-10, 11);
 		Health += Random.Range (-10, 11);
 		
-		Size = Mathf.Clamp (Size, 10, 50);
+		Size = Mathf.Clamp (Size, 20, 50);
 		Speed = Mathf.Clamp (Speed, 10, 50);
 		Health = Mathf.Clamp (Health, 10, 50);
 		AttackPower = Mathf.Clamp (AttackPower, 10, 50);
