@@ -199,7 +199,7 @@ public class Traits : MonoBehaviour {
 			AttackPower = T2.AttackPower + Random.Range ((int)-R2, (int)R2+1);
 		}
 		
-		Size = Mathf.Clamp (Size, 10, 50);
+		Size = Mathf.Clamp (Size, 20, 50);
 		Speed = Mathf.Clamp (Speed, 10, 50);
 		Health = Mathf.Clamp (Health, 10, 50);
 		AttackPower = Mathf.Clamp (AttackPower, 10, 50);

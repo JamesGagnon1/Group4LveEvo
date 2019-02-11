@@ -33,7 +33,7 @@ public class Generate : MonoBehaviour {
 		}
 		
 		if (GameObject.FindObjectOfType<BossAI>() != null) {
-			if (!ReadyToFight) {
+			/*if (!ReadyToFight) {
 				NeuralNetwork Keep = null;
 				float MaxScore = -100000;
 				foreach (NeuralNetwork NN in GameObject.FindObjectsOfType<NeuralNetwork>()) {
@@ -48,7 +48,7 @@ public class Generate : MonoBehaviour {
 					}
 				}
 				ReadyToFight = true;
-			}
+			}*/
 			
 			
 		} else {

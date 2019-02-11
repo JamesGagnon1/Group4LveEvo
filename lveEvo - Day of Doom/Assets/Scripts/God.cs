@@ -101,12 +101,19 @@ public class God : MonoBehaviour {
 		}
 	}
 
-	public void feed () {
+	public void Feed () {
 		if (FoodLeft > 0) {
 			if (GameObject.FindObjectOfType<BossAI>() != null) {
 				--FoodLeft;
 			}
 			Instantiate (FoodObject, objectToFollow.position, transform.rotation);
+		}
+	}
+	public void Kill () {
+		foreach (GameObject G in GameObject.FindGameObjectsWithTag("Player")) {
+			if (G.transform == objectToFollow) {
+				G.GetComponent<NeuralNetwork>().healthLeft = 0;
+			}
 		}
 	}
 }
