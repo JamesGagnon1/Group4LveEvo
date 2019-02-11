@@ -1581,6 +1581,11 @@ Prefab:
       propertyPath: EnemySpawnPoints.Array.data[2].y
       value: -440
       objectReference: {fileID: 0}
+    - target: {fileID: 114158460989068452, guid: 88618f3f0ef56b44c881e3ab501e488b,
+        type: 2}
+      propertyPath: Dot
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88618f3f0ef56b44c881e3ab501e488b, type: 2}
   m_IsPrefabAsset: 0

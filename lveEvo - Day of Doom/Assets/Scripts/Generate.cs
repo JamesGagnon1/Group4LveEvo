@@ -69,7 +69,7 @@ public class Generate : MonoBehaviour {
 				ControlsImage.sprite = ControlsSprite[1];
 			}
 			
-			if (Input.GetKeyDown(KeyCode.E)) {
+			if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Space)) {
 				
 				if (GameObject.FindObjectsOfType<Enemy>().Length < 10) {
 				

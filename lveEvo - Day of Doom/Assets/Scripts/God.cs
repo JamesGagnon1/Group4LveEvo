@@ -25,8 +25,11 @@ public class God : MonoBehaviour {
 	void Update () {
 
 		//Cam Control
-
-		transform.Translate (Input.GetAxis("Horizontal") * 3, 0, Input.GetAxis("Vertical") * 3);
+		if (Input.GetKey(KeyCode.LeftShift)) {
+			transform.Translate (Input.GetAxis("Horizontal") * 8, 0, Input.GetAxis("Vertical") * 8);
+		} else {
+			transform.Translate (Input.GetAxis("Horizontal") * 3, 0, Input.GetAxis("Vertical") * 3);
+		}
 
 		if (!following) {
 			if (Input.GetKey(KeyCode.Mouse2)) {
@@ -65,7 +68,7 @@ public class God : MonoBehaviour {
 		
 		//Food
 		
-		if (Input.GetKey(KeyCode.F)) {
+		/*if (Input.GetKey(KeyCode.F)) {
 			ThrowPower += Time.deltaTime*50;
 		}
 		if (Input.GetKeyUp(KeyCode.F)) {
@@ -81,7 +84,7 @@ public class God : MonoBehaviour {
 			}
 			ThrowPower = 0;
 		}
-		
+		*/
 		if (GameObject.FindObjectOfType<BossAI>() != null) {
 			FoodText.color = Color.white;
 			FoodText.text = "\n\nFood Left\n<Size=50>"+FoodLeft+"</Size>";
@@ -99,6 +102,11 @@ public class God : MonoBehaviour {
 	}
 
 	public void feed () {
-		Instantiate (FoodObject, objectToFollow.position, transform.rotation);
+		if (FoodLeft > 0) {
+			if (GameObject.FindObjectOfType<BossAI>() != null) {
+				--FoodLeft;
+			}
+			Instantiate (FoodObject, objectToFollow.position, transform.rotation);
+		}
 	}
 }

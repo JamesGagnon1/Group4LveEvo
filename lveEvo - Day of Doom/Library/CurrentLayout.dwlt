@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 711, y: 492}
-  m_MaxSize: {x: 18006, y: 14042}
+  m_MinSize: {x: 713, y: 492}
+  m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 22540
+  controlID: 7724
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,10 +130,10 @@ MonoBehaviour:
     y: 0
     width: 1091
     height: 731
-  m_MinSize: {x: 434, y: 492}
-  m_MaxSize: {x: 14004, y: 14042}
+  m_MinSize: {x: 436, y: 492}
+  m_MaxSize: {x: 14006, y: 14042}
   vertical: 1
-  controlID: 22541
+  controlID: 7725
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -181,10 +181,10 @@ MonoBehaviour:
     y: 460
     width: 1091
     height: 271
-  m_MinSize: {x: 434, y: 271}
-  m_MaxSize: {x: 14004, y: 10021}
+  m_MinSize: {x: 436, y: 271}
+  m_MaxSize: {x: 14006, y: 10021}
   vertical: 0
-  controlID: 22564
+  controlID: 7701
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -368,14 +368,14 @@ MonoBehaviour:
     height: 439
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 3826.7804949297492
+  lastFramingTime: 25468.43420990302
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 11.836227, y: -74.538055, z: -183.16357}
+    m_Target: {x: 425.764, y: 18.233574, z: -85.67191}
     speed: 2
-    m_Value: {x: 11.836227, y: -74.538055, z: -183.16357}
+    m_Value: {x: 425.764, y: 18.233574, z: -85.67191}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -403,13 +403,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.048783228, y: 0.9386535, z: -0.3071122, w: -0.14910363}
+    m_Target: {x: -0.36582324, y: -0.11767964, z: 0.046688702, w: -0.92203313}
     speed: 2
-    m_Value: {x: -0.048783228, y: 0.9386535, z: -0.3071122, w: -0.14910363}
+    m_Value: {x: -0.36582324, y: -0.11767964, z: 0.046688702, w: -0.92203313}
   m_Size:
-    m_Target: 699.7864
+    m_Target: 130.58655
     speed: 2
-    m_Value: 699.7864
+    m_Value: 130.58655
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -451,6 +451,7 @@ MonoBehaviour:
     - {fileID: 1107888929447477232, guid: 3d6d5f6fd8c4ce34cb33a54da931435b, type: 2}
     - {fileID: 1107146068286617196, guid: a57011e4b54238844a84989e3e7279e3, type: 2}
     - {fileID: 1107996128562361790, guid: 01fe053adcb20a24c97cb2845f2df95a, type: 2}
+    - {fileID: 1107934356782926498, guid: 38b6b13422352834290a4db8f0a96f1e, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.9828429
       e01: 0
@@ -460,6 +461,22 @@ MonoBehaviour:
       e11: 0.9828429
       e12: 0
       e13: 152.29776
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
       e20: 0
       e21: 0
       e22: 1
@@ -541,9 +558,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: d807f6fff293fdff0094fdff7294fdffdcfbffffe4fbffffe6fbffff000000003e330000
+    m_SelectedIDs: 123df2ff
+    m_LastClickedID: -901870
+    m_ExpandedIDs: 343df2ffe6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -629,20 +646,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\James\Documents\GitHub\Evolution-Game-for-Class\lveEvo
-    - Day of Doom
+  m_LastProjectPath: C:\Users\James\Documents\GitHub\Group4LveEvo\lveEvo - Day of
+    Doom
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2a2e0000
-    m_LastClickedID: 11818
+    m_SelectedIDs: f02a0000
+    m_LastClickedID: 10992
     m_ExpandedIDs: 00000000f02a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
