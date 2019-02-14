@@ -33,6 +33,13 @@ public class Generate : MonoBehaviour {
 		}
 		
 		if (GameObject.FindObjectOfType<BossAI>() != null) {
+			if (!ReadyToFight) {
+				foreach (NeuralNetwork NN in GameObject.FindObjectsOfType<NeuralNetwork>()) {//test if
+					if (NN.Health > 0 && NN.Score > 0) {
+						
+					}
+				}
+			}
 			/*if (!ReadyToFight) {
 				NeuralNetwork Keep = null;
 				float MaxScore = -100000;
@@ -71,7 +78,7 @@ public class Generate : MonoBehaviour {
 			
 			if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Space)) {
 				
-				if (GameObject.FindObjectsOfType<Enemy>().Length < 10) {
+				if (GameObject.FindObjectsOfType<Enemy>().Length < 5) {
 				
 					//Spawn Enemys
 

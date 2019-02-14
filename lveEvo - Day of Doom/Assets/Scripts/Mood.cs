@@ -42,7 +42,7 @@ public class Mood : MonoBehaviour {
 		
 		if (NN.healthLeft <= 5) {
 			HisMood.sprite = MoodImages[3];
-		} else if (NN.TimeFood > 40) {
+		} else if (NN.Score > 0 && NN.Health < 20) {
 			HisMood.sprite = MoodImages[1];
 		} else if (NN.TimeAttack > 40) {
 			HisMood.sprite = MoodImages[2];
